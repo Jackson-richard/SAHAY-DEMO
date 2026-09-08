@@ -1,8 +1,5 @@
 // ============================================================
 // SAHAY-AI Shared Utilities, i18n, Data Layer & Analysis Engine
-// All screens import this file.
-// VERSION 2.0 — Dynamic user, no hardcoded identities
-// ============================================================
 
 window.SAHAY = window.SAHAY || {};
 
