@@ -3,7 +3,6 @@
 
 window.SAHAY = window.SAHAY || {};
 
-// ── App Configuration ────────────────────────────────────────
 SAHAY.VERSION = '2.0.0';
 SAHAY.BUILD = '2026.08.30';
 
