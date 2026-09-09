@@ -71,7 +71,7 @@ window.SAHAY_TRANSLATIONS = {
     consent_btn_not_now: "Not Now",
     consent_footer: "You can change your consent preferences at any time in Profile > Settings.",
 
-    // Home Page
+   
     greeting_morning: "Good morning,",
     greeting_afternoon: "Good afternoon,",
     greeting_evening: "Good evening,",
