@@ -1,13 +1,7 @@
 // ============================================================
 // SAHAY-AI Internationalization (i18n) Translations
 // Supported Languages:
-//  - en: English (default)
-//  - ta: தமிழ் (Tamil)
-//  - hi: हिन्दी (Hindi)
-//  - te: తెలుగు (Telugu)
-//  - kn: ಕನ್ನಡ (Kannada)
-//  - ml: മലയാളം (Malayalam)
-// ============================================================
+//  - en: English (defa ============================================================
 
 window.SAHAY_TRANSLATIONS = {
   // ==========================================================
