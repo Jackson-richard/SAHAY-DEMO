@@ -2,7 +2,6 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-// Same SVG but with padding for adaptive icon safe zone (66dp of 108dp)
 const iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <rect width="512" height="512" fill="#ffffff" />
   
