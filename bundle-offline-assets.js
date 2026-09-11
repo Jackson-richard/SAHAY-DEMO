@@ -34,13 +34,7 @@ function download(url, dest, maxRedirects = 8) {
 }
 
 async function main() {
-    // 1. Download Tailwind CDN (the play CDN script)
-    console.log('Downloading Tailwind CDN...');
-    await download('https://cdn.tailwindcss.com/3.4.17', path.join(assetsDir, 'tailwind.min.js'));
-    console.log('Tailwind done.');
-
-    // 2. Material Symbols - use a direct woff2 download + inline CSS approach
-    // Use a pinned static URL for the variable icon font
+     
     console.log('Downloading Material Symbols font...');
     const matFontUrl = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v232/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsI.woff2';
     await download(matFontUrl, path.join(assetsDir, 'material-symbols.woff2'));
