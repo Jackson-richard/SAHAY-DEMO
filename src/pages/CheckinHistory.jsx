@@ -6,7 +6,7 @@ export default function CheckinHistory() {
     const { checkins } = useSession();
     const navigate = useNavigate();
 
-    // Map history to safe chronological arrays
+  
     const listCheckins = [...(checkins || [])].reverse();
     const graphCheckins = checkins || [];
 
