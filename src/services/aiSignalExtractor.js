@@ -1,8 +1,5 @@
-/**
- * Prototype AI/NLP Signal Extraction Interface
- * This acts as a Provider-Independent Abstraction layer.
- * Currently uses deterministic local evaluation to avoid triggering external APIs (Groq placeholder).
- */
+
+ 
 export async function extractSignals(text, language = 'en') {
     const defaultSignals = {
         emotionalDistress: 0.0,
