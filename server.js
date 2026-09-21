@@ -7,7 +7,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Serve static frontend files
 app.use(express.static(path.join(__dirname, 'sahay-ai-app')));
 
 // --- IN-MEMORY DATABASE (Persists as long as server runs) ---
