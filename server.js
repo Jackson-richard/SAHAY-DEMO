@@ -78,11 +78,8 @@ let mockDashboardCases = [
   },
 ];
 
-// ----------------------------------------------------
-// API ROUTES
-// ----------------------------------------------------
 
-// GET Case Details
+
 app.get('/api/case/:id', (req, res) => {
   res.json(mockCase);
 });
