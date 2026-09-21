@@ -9,7 +9,6 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'sahay-ai-app')));
 
-// --- IN-MEMORY DATABASE (Persists as long as server runs) ---
 
 let mockCase = {
   id: 'VCT-2024-00847',
