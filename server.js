@@ -125,7 +125,6 @@ function processAnalysis(chatLog) {
       }
   });
 
-  // Calculate new score based on last checkin
   const lastCheckinScore = mockCheckins[mockCheckins.length - 1]?.score || 30;
   const newScore = Math.min(100, Math.max(0, lastCheckinScore - 5 + scoreIncrease));
   
